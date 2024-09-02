@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a2e;
+  color: #f5f5f5;
+}
+
+.App-header {
+  padding: 20px;
+  background-color: #1a1a2e;
+  min-height: 100vh; /* Ensure the header covers the full viewport height */
+}
+
+.container {
+  max-width: 1200px; /* Increase the container width */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0;
+  right: 0;
+  background-color: #1a1a2e; /* Ensure the background color covers the full navbar */
+  padding: 20px 0; /* Adjust padding for the navbar */
+  z-index: 1000; /* Ensure the navbar stays above other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 2rem; /* Increase the size of the title */
+  margin: 0;
+  padding-left: 40px; /* Add more padding to the left for spacing */
+  
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar nav ul li {
+  margin: 0 20px; /* Increase space between nav items */
+}
+
+.navbar nav ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem; /* Increase font size of nav links */
+
+}
+
+.navbar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 2rem; /* Increase the size of the theme toggle button */
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.intro {
+  margin-top: 200px; /* Increase margin top to move content lower */
+  padding-bottom: 100px; /* Decrease padding-bottom slightly to balance space */
+  min-height: calc(100vh - 100px); /* Adjust this value based on your header's height */
+  
+}
+
+.profile-pic {
+  width: 200px; /* Increase the profile picture size */
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #3fc1c9;
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  color: #3fc1c9;
+  font-size: 1.75rem; /* Increase the subtitle size */
+  margin: 0;
+}
+
+.intro h1 {
+  font-size: 4rem; /* Increase the main title size */
+  margin: 10px 0;
+}
+.social-buttons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-button {
+  background-color: #3fc1c9;
+  color: #1a1a2e;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px; /* Space between the buttons */
+  transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+  background-color: #33a6b2;
+}
+
+.intro p {
+  font-size: 1.5rem; /* Increase the paragraph size */
+  line-height: 1.8;
+  max-width: 800px; /* Increase the max-width for better readability */
+  margin: 0 auto;
+}
+
+.resume-section {
+  padding: 70px 0 100px; /* Adjust the top padding for the resume section */
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.resume-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.resume-image {
+  margin-top: 30px;
+  max-width: 70%; /* Adjust the image size */
+  height: auto;
+  border: 1px solid #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #1a1a2e;
+  color: #f5f5f5;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #3fc1c9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Projects Section */
+.projects-section {
+  padding: 100px 0; /* Padding for the project section */
+  background-color: #1a1a2e; /* Blue background */
+  color: #f5f5f5;
+  text-align: left; /* Align text to the left */
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px; /* Increase space between projects */
+}
+
+.project-image img {
+  max-width: 100%; /* Limit the size of the project image */
+  border-radius: 5px;
+  margin-right: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-description {
+  max-width: 50%;
+  margin-left: 20px;
+}
+
+.project-description h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.project-description p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.github-link-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3fc1c9;
+  color: #1a1a2e;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.github-link-button:hover {
+  background-color: #33a6b2;
+}
+
+
+
+
+/* Contact Section */
+.contact-section {
+  padding: 300px 0; /* Increase padding for the contact section */
+  background-color: #ffffff; /* White background */
+  color: #333;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #3fc1c9;
+  color: #1a1a2e;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #33a6b2;
+}
