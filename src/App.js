@@ -16,10 +16,9 @@ function App() {
                 <li><a href="#contact">Contact Me</a></li>
               </ul>
             </nav>
-            {/* <button className="theme-toggle">🌙</button> */}
           </div>
           <div className="intro" id="home">
-            <img className="profile-pic" src="/images/profile3.png" alt="Profile Image" />
+            <img className="profile-pic" src="/images/profile3.png" alt="Profile of Darshan Patil" />
             <h2>Hey There,</h2>
             <h1>I'm Darshan Patil.</h1>
             <div className="social-buttons">
@@ -43,7 +42,7 @@ function App() {
           <h2>My Resume</h2>
           <p>You can download my resume by clicking the link below:</p>
           {/* Display Resume Image */}
-          <img src="/images/resumesc.png" alt="Resume Image" className="resume-image" />
+          <img src="/images/resumesc.png" alt="Screenshot of Darshan Patil's Resume" className="resume-image" />
         </div>
       </section>
 
@@ -51,7 +50,7 @@ function App() {
       <section id="projects" className="projects-section">
         <div className="container project-container">
           <div className="project-image">
-            <img src="/images/project1.png" alt="Project Image" />
+            <img src="/images/project1.png" alt="Fairshare Project Screenshot" />
           </div>
           <div className="project-description">
             <h2>Fairshare</h2>
@@ -63,7 +62,7 @@ function App() {
         </div>
         <div className="container project-container">
           <div className="project-image">
-            <img src="/images/project2.png" alt="Investment Data Analysis Image" />
+            <img src="/images/project2.png" alt="Investment Data Analysis Project Screenshot" />
           </div>
           <div className="project-description">
             <h2>Investment Data Analysis</h2>
